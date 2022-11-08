@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Inter:wght@400;900&family=Noto+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* PAGE 1 */
+
+header{
+    background-color: black;
+    width: 100%;
+    height: 12vh;
+}
+
+header ul{
+    font-size: 16px;
+    color: white;
+    display: grid;
+    display: flex;
+    gap: 37px;
+    margin-top: 6px;
+    margin-left: 60%;
+    cursor: pointer;
+}
+
+.c-home{
+    background: rgba(69, 69, 69, 0.1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% auto;
+    height: 100vh;
+}
+
+.c-home h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.c-home h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn a{
+    color: white;
+}
+
+.btn{
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    margin-left: 45%;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgb(87, 53, 53);
+}
+
+                    /* animations */
+                    header ul li{
+                        transition: transform .3s;
+                    }
+
+                    header ul li:hover{
+                        transform: scale(1.1);
+                    }
+                    
+                    .btn:hover{
+                        transition: 0.8s;
+                        transform: scale(1.1);
+                    }
