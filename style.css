@@ -97,7 +97,7 @@ header ul{
     width: 400px;
     height: auto;
     cursor: pointer;
-    box-shadow: 4px 4px 4px 4px #E8E8E8;
+    box-shadow: 4px 4px 4px 6px rgb(107, 107, 107);
 }
 
 .c-about h1{
