@@ -15,7 +15,7 @@ body::-webkit-scrollbar{
 
 /* PAGE 1 */
 .c-home{
-    background: rgba(69, 69, 69, 0.1);
+    background: #E8E8E8;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ header{
 
 header ul{
     font-size: 16px;
-    color: white;
+    color: #E8E8E8;
     display: grid;
     display: flex;
     gap: 37px;
@@ -53,7 +53,7 @@ header ul{
 }
 
 .main-title button a{
-    color: white;
+    color: #E8E8E8;
 }
 
 .main-title button{
@@ -81,3 +81,6 @@ header ul{
                         transition: 0.8s;
                         transform: scale(1.1);
                     }
+
+/* PAGE 2 */
+
