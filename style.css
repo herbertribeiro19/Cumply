@@ -84,3 +84,62 @@ header ul{
 
 /* PAGE 2 */
 
+.c-about{
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 4px #E8E8E8;
+}
+
+.c-about h1{
+    color: #E8E8E8;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about h4{
+    color: #E8E8E8;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.about p{
+    color: #E8E8E8;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 90px;  
+    font-weight: normal;
+}
+
+.about button a{
+    color: black;
+}
+
+.about button{
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #E8E8E8;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 45%;
+    box-shadow: 4px 4px 4px rgb(78, 78, 78);
+}
+
+.about button:hover{
+    transition: 0.8s;
+    transform: scale(1.1);
+}
