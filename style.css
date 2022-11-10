@@ -155,11 +155,10 @@ header ul{
     flex-wrap: wrap;
 }
 
-.image {
-    width: 400px;
+.image2 img {
+    width: 450px;
     height: auto;
     cursor: pointer;
-    box-shadow: 4px 4px 4px 6px rgb(107, 107, 107);
 }
 
 .c-about h1{
@@ -206,6 +205,7 @@ header ul{
     transform: scale(1.1);
 }
 
+
 @media screen and (max-width: 414px) {
     video{
         width: 410px;
@@ -220,5 +220,11 @@ header ul{
         width: 500px;
         padding: 5px;
         text-align: center;
+    }
+    .image2 img {
+        margin-top: 2px;
+        width: 400px;
+        height: auto;
+        cursor: pointer;
     }
 }
