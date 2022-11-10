@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Cumply</title>
 </head>
 <body>
@@ -36,15 +37,14 @@
             <div class="main-title">
                 <h1>Welcome to Cumply</h1>
                 <h3>Quality and the best style for your life</h3>
-                <button class="btn"><a href="">See More</a></button>
+                <button class="btn"><a href="#about-page">See More</a></button>
             </div>
     </div>
-    <section class="c-about">
-        
+    <section class="c-about" id="about-page" data-aos="fade-up">
         <div class="image2">
-            <video autoplay loop width="600px" height="400px" src="./assets/animationlogo.mp4" type="video/mp4"></video>
+            <video autoplay loop width="600px" height="400px" src="./assets/animationlogo.mp4" type="video"></video>
         </div>
-        <div class="about"> 
+        <div class="about" data-aos="fade-left"> 
             <h1>About</h1>
             <h4>Quality and style for your body</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -55,10 +55,15 @@
                 <br>vitae interdum nisi commodo. Cras malesuada enim
                 <br>laoreet eleifend tincidunt. Duis sem ex, pharetra ut.
             </p>
-            <button class="btn2"><a href="">CEO</a></button>
+            <button class="btn2" data-aos="fade-up"><a href="">CEO</a></button>
         </div>
     </section>
 
+<!-- SCRIPT ANIMATION -->
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

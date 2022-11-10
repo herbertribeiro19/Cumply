@@ -42,6 +42,7 @@ header img{
     padding-top: 10px;
     margin-left: 40%;
     cursor: pointer;
+animation: fromBottom 1.0s backwards;
 }
 
 header ul{
@@ -51,18 +52,21 @@ header ul{
     display: flex;
     gap: 37px;
     cursor: pointer;
+    animation: fromBottom 1.0s backwards;
 }
 
 .main-title h1{
     font-size: 80px;
     text-align: center;
     padding-top: 150px;
+    animation: fromBottom 2.0s backwards;
 }
 
 .main-title h3{
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
+    animation: fromBottom 2.5s backwards;
 }
 
 .main-title button a{
@@ -79,6 +83,7 @@ header ul{
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 4px 4px 4px rgb(87, 53, 53);
+    animation: fromBottom 3.0s backwards;
 }
 
                     /* animations */
@@ -109,21 +114,40 @@ header ul{
         font-size: 60px;
         margin-top: 30px;
     }
-    .main-title h3{
-        font-size: 12px;
-        width: 500px;
-        padding-top: 70px;
+    .main-title h3 {
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
     }
     .main-title button{
-        
+        font-size: 30px;
+        margin-top: 50px;
+        background-color: black;
+        border: none;
+        padding: 10px;
+        margin-left: 33%;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 4px 4px 4px rgb(87, 53, 53);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px)
     }
 
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
 }
 
 /* PAGE 2 */
 
 .c-about{
-    background: black;
+    background: #010001;
     display: flex;
     justify-content: space-around;
     padding: 150px 0px;
