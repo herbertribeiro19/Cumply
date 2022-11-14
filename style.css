@@ -16,17 +16,18 @@ body::-webkit-scrollbar{
 /* PAGE 1 */
 .c-home{
     background: #E8E8E8;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background-size: cover;
 }
 
 header{
     background-color: black;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 16vh;
     display: flex;
@@ -43,7 +44,7 @@ header img{
     padding-top: 10px;
     margin-left: 40%;
     cursor: pointer;
-animation: fromBottom 1.0s backwards;
+    animation: fromBottom 1.0s backwards;
 }
 
 header ul{
@@ -84,7 +85,7 @@ header ul{
     background-color: black;
     border: none;
     padding: 10px;
-    margin-left: 46%;
+    margin-left: 45%;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 4px 4px 4px rgb(87, 53, 53);
