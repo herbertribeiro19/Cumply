@@ -56,6 +56,10 @@ header ul{
     animation: fromBottom 1.0s backwards;
 }
 
+.cabecalho-text a{
+    color: #E8E8E8;
+}
+ 
 .main-title h1{
     font-size: 80px;
     text-align: center;
