@@ -147,13 +147,11 @@ header img:hover {
         padding-top: 20px;
     }
 
-    .main-title button{
+    .btn{
         font-size: 16px;
-        margin-top: 70px;
-        left:38%;
-        align-items: center;
-        cursor: pointer;
-        box-shadow: 4x 4px 4px rgb(97, 44, 44);
+        margin-top: 90px;
+        width: 100px;
+        right: 30px;
     }
 }
 
