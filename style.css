@@ -14,39 +14,32 @@ body::-webkit-scrollbar{
 }
 
 /* PAGE 1 */
-.c-home{
-    background-image: url(./assets/home-1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-}
-
-header{
+header {
     background-image: url(./assets/header.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    height: 120px;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
 }
 
-header img{
+header img {
     height: 60px;
     width: 60px;
 }
 
+
 .logo {
-    padding-top: 10px;
-    margin-left: 40%;
+    padding-top: 20px;
+    margin-left: 41%;
+    margin-bottom: 5px;
     cursor: pointer;
     animation: fromBottom 1.0s backwards;
 }
 
-header ul{
+header ul {
     font-size: 16px;
     color: #E8E8E8;
     display: grid;
@@ -54,6 +47,15 @@ header ul{
     gap: 37px;
     cursor: pointer;
     animation: fromBottom 1.0s backwards;
+}
+
+.c-home{
+    background-image: url(./assets/home-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
 }
 
 .cabecalho-text a{
@@ -78,33 +80,36 @@ header ul{
     color: #E8E8E8;
 }
 
-.main-title button{
-    position: absolute;
-    font-size: 18px;
-    margin-top: 50px;
-    background-color: black;
-    border: none;
-    padding: 10px;
-    left: 45.5%;
+.btn{
+    display: flex;
+    position: relative;
     border-radius: 10px;
+    font-size: 14px;
+    margin: 50px 45.5%;
+    padding: 15px;
+    background-color: black;
     cursor: pointer;
     box-shadow: 4px 4px 4px rgb(87, 53, 53);
     animation: fromBottom 3.0s backwards;
+} 
+
+ /* animations */
+ header ul li{
+     transition: transform .3s;
+ }
+
+ header ul li:hover{
+     transform: scale(1.1);
+ }
+
+header img:hover {
+    transform: scale(1.1);
 }
-
-                    /* animations */
-                    header ul li{
-                        transition: transform .3s;
-                    }
-
-                    header ul li:hover{
-                        transform: scale(1.1);
-                    }
-                    
-                    .main-title button:hover{
-                        transition: 0.8s;
-                        transform: scale(1.1);
-                    }
+ 
+ .main-title button:hover{
+     transition: 0.8s;
+     transform: scale(1.1);
+ }
 
 
 @keyframes fromBottom {
@@ -158,7 +163,7 @@ header ul{
     background: #010001;
     display: flex;
     justify-content: space-around;
-    padding: 150px 0px;
+    padding: 124px 0px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -216,7 +221,7 @@ header ul{
 
 @media screen and (max-width: 414px) {
     video{
-        width: 410px;
+        width: 400px;
         height: auto;
         margin-top:1px;
     }
