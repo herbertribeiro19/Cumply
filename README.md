@@ -1,8 +1,8 @@
 # Cumply - Clothing
 
-![PREVIEW](/assets/preview.gif)
-
 > Projeto Real
+
+![PREVIEW](/assets/preview.gif)
 
 [Clique aqui para acessar](https://herbertribeiro19.github.io/Cumply)
 
